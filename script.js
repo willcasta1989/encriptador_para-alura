@@ -19,6 +19,7 @@ const decryptionMap = {
 function encryptText() {
     const inputText = document.getElementById("areaIngresoTexto").value;
     let encryptedText = inputText;
+    alert("Texto encriptado correctamente");
 
     for (const key in encryptionMap) {
         encryptedText = encryptedText.replace(new RegExp(key, 'g'), encryptionMap[key]);
@@ -32,6 +33,7 @@ function encryptText() {
 function decryptText() {
     const inputText = document.getElementById("areaTextoSalida").value;
     let decryptedText = inputText;
+    alert("Texto desencriptado correctamente");
 
     for (const key in decryptionMap) {
         decryptedText = decryptedText.replace(new RegExp(key, 'g'), decryptionMap[key]);

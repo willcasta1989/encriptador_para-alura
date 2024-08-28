@@ -6,11 +6,14 @@
     <title>Encriptador de Texto</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<header class="logo"><img src="./assets/willgames.png" alt="logo willgames"></header>
+<body>
+<header class="header"><img src="./assets/willgames.png" alt="logo willgames">
+<p class="parrafo">Bienvenido al encriptador de texto</p>
+</header>
 <main class="contenidoCompleto">
     <section class="contenidoCompleto2">
         <div class="contenido1">           
-            <textarea id="areaIngresoTexto" placeholder="Escribe aquí..."></textarea>
+            <textarea id="areaIngresoTexto" placeholder="Ingresa el texto aquí..."></textarea>
             <section class="botonesEncriptDes">
                 <button id="botonEncriptar" onclick="encryptText()">Encriptar</button>
                 <button id="botonDesencriptar" onclick="decryptText()" disabled>Desencriptar</button>
@@ -24,6 +27,10 @@
         </div> 
     </section>   
 </main>
-<footer>Desarrollado por William Castaño WillGames.inc</footer>
+
+<footer class="footer">
+    <p>Desarrollado por William Castaño WillGames.inc</p>
+</footer>
+</body>
 <script src="script.js"></script>
 </html>

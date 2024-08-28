@@ -1,12 +1,21 @@
 
+*{
+    border: 0;
+    padding: 0;
+    
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #ccc;
+}
 .contenidoCompleto {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    background: #f5f5f5;
+    margin: 0;        
     flex-direction: row;
 }
 
@@ -36,7 +45,7 @@
 
 
 button {
-    background-color: #4CAF50;
+    background-color: #0d08f4;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -47,7 +56,7 @@ button {
 }
 
 button:disabled {
-    background-color: #ccc;
+    background-color: #272525;
     cursor: not-allowed;
 }
 
@@ -65,8 +74,28 @@ textarea {
     resize: none;
     font-size: 16px;
 }
-.logo{
+.header{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
     padding: 1% 5% 0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+    
+}
+.parrafo{
+    padding: 1px 20px;
+}
+.footer{
+    background-color: rgb(124, 125, 133);
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0;
+    
 }
 
 
